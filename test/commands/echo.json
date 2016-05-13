@@ -1,0 +1,11 @@
+{
+  "name": "slnky.instance.command",
+  "payload": {
+    "command": "echo",
+    "args": [
+      "test",
+      "echo"
+    ],
+    "responder": "STDOUT"
+  }
+}

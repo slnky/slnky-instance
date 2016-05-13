@@ -1,0 +1,10 @@
+{
+  "name": "slnky.instance.command",
+  "payload": {
+    "command": "terminate",
+    "args": [
+      "blarg"
+    ],
+    "responder": "STDOUT"
+  }
+}
