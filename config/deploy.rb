@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
-lock '3.4.0'
+lock '3.4.1'
 
 set :application, 'slnky-instance'
-set :repo_url, 'git@github.com:something/slnky-instance.git'
+set :repo_url, 'git@github.com:slnky/slnky-instance.git'
 
 set :deploy_to, "#{ENV['DEPLOY_DIR']}/#{fetch(:application)}#{fetch(:stage) == 'staging' ? '-stg' : ''}"
 
